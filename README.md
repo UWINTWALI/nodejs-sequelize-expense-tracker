@@ -1,7 +1,38 @@
-# Database Managment with MySQL and Node.js
+# Database Managment with MySQL and Node.js || Expense Tracker Application
 
-## Description:
-In this week, you will dive into relational databases using MySQL and integrate it with Node.js using Sequelize. You will design a database schema for storing expense data, and user profiles. This will provide hands-on experience with database design, SQL queries, and ORM (Object-Relational Mapping) libraries in Node.js.
+This project is an expense tracking application built using Node.js, Sequelize, and MySQL. The application allows users to track their expenses, manage budgets, and categorize expenses efficiently.
+
+## Features
+
+- User authentication and management
+- Expense tracking with categories
+- Budget management
+- Payment method tracking
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MySQL
+- Sequelize (ORM)
+- JavaScript
+
+## Getting Started
+
+### Prerequisites
+
+
+- Node.js
+- MySQL
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/UWINTWALI/nodejs-sequelize-expense-tracker.git
+   cd nodejs-sequelize-expense-tracker
+
 
 ## Requirements:
 
@@ -48,5 +79,33 @@ In this week, you will dive into relational databases using MySQL and integrate 
                 created_at
                 updated_at
 
-### Submission:
-        Submit the link to your GitHub repository for evaluation through the GitHub Classrooms assignment.
+
+### Project Structure:
+```bash
+./nodejs-sequelize-expense-tracker
+├── models
+│   ├── User.js
+│   ├── Category.js
+│   ├── Expense.js
+│   ├── PaymentMethod.js
+│   ├── Budget.js
+│   └── index.js
+├── sync.js
+├── database.js
+├── package.json
+├── .env
+└── README.md
+```
+
+### Contributing:
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+``` bash
+You can customize the repository URL, database credentials, and any other specific details as per your project requirements.
+```
+### Contact: 
+```bash
+Name:   Jean de Dieu UWINTWALI
+Email: uwintwalijeandedieu@gmail.com
+```
+

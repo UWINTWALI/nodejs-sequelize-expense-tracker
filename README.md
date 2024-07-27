@@ -21,7 +21,6 @@ This project is an expense tracking application built using Node.js, Sequelize, 
 
 ### Prerequisites
 
-
 - Node.js
 - MySQL
 
